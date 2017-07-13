@@ -93,3 +93,19 @@ var slider = new Carousel('yourIdName');
 </html>
 
 ```
+
+### fade animation
+```javascript
+var slider = new Carousel('item');
+
+var nextbtn = document.getElementById('next');
+var prevbtn = document.getElementById('prev');
+
+nextbtn.onclick = function(){
+  slider.next('slide');
+}
+
+prevbtn.onclick = function(){
+  slider.prev('slide');
+}
+```
