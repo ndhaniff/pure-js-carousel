@@ -1,14 +1,14 @@
 # pure-js-carousel
 this carousel plugin is made in pure js
 
-##how to use
+## how to use
 to use this plugin you just have to initialize it like this
 
 ```javascript
 var slider = new Carousel('yourIdName');
 ```
 
-###example for initialization
+### example for initialization
 
 ```html
 <!DOCTYPE html>
@@ -30,7 +30,7 @@ var slider = new Carousel('yourIdName');
 </script>
 ```
 
-###example for adding navigation button
+### example for adding navigation button
 ```html
 <!DOCTYPE html>
 <html>
@@ -54,7 +54,7 @@ var slider = new Carousel('yourIdName');
 </script>
 ```
 
-###make autoplay carousel
+### make autoplay carousel
 ```html
 <!DOCTYPE html>
 <html>
