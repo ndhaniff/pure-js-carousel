@@ -23,11 +23,14 @@ var slider = new Carousel('yourIdName');
       <img src="slide.jpg" class="carousel" >
       <img src="slide2.jpg" class="carousel" >
     </div>
+    <!-- link the plugin -->
+    <script src="purejscarousel.js"></script>
+    <script>
+    var slider = new Carousel('yourIdName');
+    </script>
   </body>
 </html>
-<script>
-var slider = new Carousel('yourIdName');
-</script>
+
 ```
 
 ### example for adding navigation button
@@ -47,11 +50,14 @@ var slider = new Carousel('yourIdName');
       <button onclick="slider.next()">next</button>
       <button onclick="slider.prev()">prev</button>
     </div>
+    <!-- link the plugin -->
+    <script src="purejscarousel.js"></script>
+    <script>
+    var slider = new Carousel('yourIdName');
+    </script>
   </body>
 </html>
-<script>
-var slider = new Carousel('yourIdName');
-</script>
+
 ```
 
 ### make autoplay carousel
@@ -71,16 +77,19 @@ var slider = new Carousel('yourIdName');
       <button onclick="slider.next()">next</button>
       <button onclick="slider.prev()">prev</button>
     </div>
+    <!-- link the plugin -->
+    <script src="purejscarousel.js"></script>
+    <script>
+    var slider = new Carousel('yourIdName');
+    // set parameter in milisecond on next function to trigger forward autoplay
+    slider.next(1000);
+
+    /*
+     to stop
+     slider.stop();
+    */
+    </script>
   </body>
 </html>
-<script>
-var slider = new Carousel('yourIdName');
-// set parameter in milisecond on next function to trigger forward autoplay
-slider.next(1000);
 
-/*
- to stop
- slider.stop();
-*/
-</script>
 ```

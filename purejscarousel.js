@@ -25,9 +25,10 @@ Carousel.prototype.next = function(interval){
 
   //check interval type to avoid any abuse XD
   if(typeof interval === 'number' && (interval % 1) === 0){
+    var context = this;
     this.run = setTimeout(() => {
-      console.log(this);
-    },1000);
+      context.next(interval);
+    },interval);
   }
 }
 
@@ -40,9 +41,10 @@ Carousel.prototype.prev = function(interval){
 
   //check interval type to avoid any abuse XD
   if(typeof interval === 'number' && (interval % 1) === 0){
+    var context = this;
     this.run = setTimeout(() => {
-      console.log(this);
-    },1000);
+      context.prev(interval);
+    },interval);
   }
 }
 
