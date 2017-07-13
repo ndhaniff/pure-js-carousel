@@ -95,6 +95,9 @@ var slider = new Carousel('yourIdName');
 ```
 
 ### fade animation
+
+ [demo](https://codepen.io/nifdesign/pen/xrmzLE?editors=0010)
+
 ```javascript
 var slider = new Carousel('item');
 
